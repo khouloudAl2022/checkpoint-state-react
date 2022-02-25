@@ -24,6 +24,7 @@ class App extends Component {
     return (
       <div>
         <AddItem addTask={this.addTask} />
+        <h1 style={{ textAlign: "center" }}>List of Items</h1>
         <TaskList taskList={this.state.taskList} deleteTask={this.deleteTask} />
       </div>
     );
